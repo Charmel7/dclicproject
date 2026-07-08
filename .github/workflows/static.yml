@@ -37,7 +37,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # Upload entire repository
-          path: './ProjetFinal_AFFOUKOU_Prosper/'
+          path: './ProjetFinal_AFFOUKOU_Prosper/site'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5
