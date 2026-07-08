@@ -1,0 +1,21 @@
+PROMPT V1 — Wireframe Portfolio Personnel
+============================================
+Généré le : 8 Juillet 2026
+Auteur : AFFOUKOU D.O. Prosper Charmel
+
+---
+
+Tu es designer UX. Génère un wireframe low-fidelity d'un portfolio personnel.
+
+Écrans : Accueil (desktop + mobile) + Projets (desktop + mobile).
+
+Sections :
+- header/nav (logo + menu : Accueil, À propos, Compétences, Projets, Contact)
+- Hero (H1 : "AFFOUKOU Prosper Charmel" + sous-titre + CTA "Voir mes projets")
+- À propos (photo + biographie : élève-ingénieur en Génie Mathématique et Modélisation)
+- Compétences (grille de cartes : Développement Web, Mathématiques & Modélisation, Programmation, IA & Data, Systèmes embarqués, Outils)
+- Projets (3-4 cartes : Eauracle, Timetabling ACO, Débruitage d'image, Sixteen Soldiers Challenge)
+- Contact (formulaire : nom, email, message + bouton Envoyer)
+- footer (copyright, liens sociaux GitHub, email)
+
+Contraintes : hiérarchie H1/H2/H3, responsive (breakpoints 768px et 1024px), accessibilité (labels, boutons), sobriété (écoconception), palette sobre.

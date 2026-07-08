@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Prosper AFFOUKOU</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <a class="skip-link" href="#main">Aller au contenu</a>
+    <a href="index.html" class="logo">
+      <span class="logo-first">Prosper</span>
+      <span class="logo-last">AFFOUKOU</span>
+    </a>
+    <nav aria-label="Navigation principale">
+      <a href="index.html#hero">Accueil</a>
+      <a href="about.html">A propos</a>
+      <a href="index.html#skills">Competences</a>
+      <a href="projects.html">Projets</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="page-header">
+      <h1>Contact</h1>
+      <p>Envoyez-moi un message et je vous repondrai rapidement.</p>
+    </section>
+
+    <section id="contact" class="page-section">
+      <form id="contact-form" aria-label="Formulaire de contact">
+        <div class="form-group">
+          <label for="name">Nom complet</label>
+          <input type="text" id="name" name="name" required autocomplete="name">
+          <span class="error-msg" id="error-name"></span>
+        </div>
+        <div class="form-group">
+          <label for="email">Adresse email</label>
+          <input type="email" id="email" name="email" required autocomplete="email">
+          <span class="error-msg" id="error-email"></span>
+        </div>
+        <div class="form-group">
+          <label for="message">Votre message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+          <span class="error-msg" id="error-message"></span>
+        </div>
+        <button type="submit" class="cta">Envoyer</button>
+        <div id="form-feedback"></div>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Prosper AFFOUKOU</p>
+    <div class="footer-links">
+      <a href="https://github.com/Charmel7" target="_blank" rel="noreferrer">
+        <img src="assets/images/icons8-github-50.png" alt="GitHub"> GitHub
+      </a>
+      <a href="mailto:prosperaffoukou@outlook.com">
+        <img src="assets/images/icons8-letter-50.png" alt="Email"> Email
+      </a>
+    </div>
+    <p class="footer-credit">Fait avec passion en HTML/CSS/JS</p>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
+

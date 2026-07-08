@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prosper AFFOUKOU | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <a class="skip-link" href="#main">Aller au contenu</a>
+    <a href="index.html" class="logo">
+      <span class="logo-first">Prosper</span>
+      <span class="logo-last">AFFOUKOU</span>
+    </a>
+    <nav aria-label="Navigation principale">
+      <a href="index.html#hero">Accueil</a>
+      <a href="about.html">A propos</a>
+      <a href="index.html#skills">Competences</a>
+      <a href="projects.html">Projets</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section id="hero">
+      <div class="hero-text">
+        <h1>AFFOUKOU Prosper Charmel</h1>
+        <p class="hero-subtitle">Eleve-Ingenieur en Genie Mathematique & Modelisation</p>
+        <p class="hero-tagline">Mathematiques appliquees  ·  IA  ·  Optimisation</p>
+        <p>
+          Modelisation numerique, donnees et solutions innovantes pour repondre
+          aux defis scientifiques et technologiques.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="cta">Voir mes projets</a>
+          <a href="#contact" class="cta cta-white">Me contacter</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="assets/images/profile.jpeg" alt="Portrait Prosper AFFOUKOU" loading="lazy">
+        <img src="assets/images/Union.png" alt="" class="union">
+      </div>
+    </section>
+
+    <!-- COMPETENCES -->
+    <section id="skills">
+      <h2>Competences</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <div class="skill-icons">
+            <img src="assets/images/html-5-svgrepo-com.svg" alt="" class="skill-icon" aria-hidden="true">
+            <img src="assets/images/css-3-svgrepo-com.svg" alt="" class="skill-icon" aria-hidden="true">
+            <img src="assets/images/js-svgrepo-com.svg" alt="" class="skill-icon" aria-hidden="true">
+          </div>
+          <h3>Developpement Web</h3>
+          <p>HTML5, CSS3 (Flex/Grid, responsive), JavaScript (DOM, validation)(en cours d'apprentissage....)</p>
+        </div>
+        <div class="skill-card">
+          <img src="assets/images/math-curve-svgrepo-com.svg" alt="" class="skill-icon skill-icon--light" aria-hidden="true">
+          <h3>Mathematiques & Modelisation</h3>
+          <p>Optimisation, Calcul scientifique, Algebre , Statistiques</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icons">
+            <img src="assets/images/python-svgrepo-com.svg" alt="" class="skill-icon" aria-hidden="true">
+            <img src="assets/images/matlab-svgrepo-com.svg" alt="" class="skill-icon" aria-hidden="true">
+          </div>
+          <h3>Programmation</h3>
+          <p>Python (NumPy, pandas), MATLAB, C (BLAS/LAPACK)</p>
+        </div>
+        <div class="skill-card">
+          <img src="assets/images/data-trends-svgrepo-com.svg" alt="" class="skill-icon" aria-hidden="true">
+          <h3>IA & Data</h3>
+          <p>Machine Learning, Series temporelles, Optimisation combinatoire</p>
+        </div>
+        <div class="skill-card">
+          <img src="assets/images/arduino-svgrepo-com.svg" alt="" class="skill-icon" aria-hidden="true">
+          <h3>Systemes embarques</h3>
+          <p>Arduino, ESP32, capteurs IoT</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icons">
+            <img src="assets/images/icons8-github-50.png" alt="" class="skill-icon skill-icon--light" aria-hidden="true">
+            <img src="assets/images/linux-svgrepo-com.svg" alt="" class="skill-icon" aria-hidden="true">
+            <img src="assets/images/latex-svgrepo-com.svg" alt="" class="skill-icon skill-icon--light" aria-hidden="true">
+          </div>
+          <h3>Outils</h3>
+          <p>Git/GitHub, LaTeX, Linux</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJETS -->
+    <section id="projects">
+      <h2>Projets</h2>
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-img">
+            <img src="assets/images/eauracle.png" alt="Apercu du projet Eauracle" loading="lazy">
+          </div>
+          <div class="project-info">
+            <h3>Eauracle</h3>
+            <p>Prediction et alerte aux inondations &mdash; 1er Prix UNESCO 2026</p>
+            <div class="project-tags">
+              <span>Python</span>
+              <span>ESP32</span>
+              <span>IoT</span>
+            </div>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-img">
+            <img src="assets/images/timetabling.webp" alt="Apercu du projet Timetabling ACO" loading="lazy">
+          </div>
+          <div class="project-info">
+            <h3>Timetabling ACO</h3>
+            <p>Optimisation combinatoire par Algorithme de Colonie de Fourmis</p>
+            <div class="project-tags">
+              <span>Python</span>
+              <span>ACO</span>
+            </div>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-img">
+            <img src="assets/images/debruitage.webp" alt="Apercu du projet Debruitage d'image" loading="lazy">
+          </div>
+          <div class="project-info">
+            <h3>Debruitage d'image</h3>
+            <p>Methodes BLAS/LAPACK haute performance en C</p>
+            <div class="project-tags">
+              <span>C</span>
+              <span>BLAS</span>
+              <span>LAPACK</span>
+            </div>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-img">
+            <img src="assets/images/soldiers.jpg" alt="Apercu du projet Sixteen Soldiers" loading="lazy">
+          </div>
+          <div class="project-info">
+            <h3>Sixteen Soldiers</h3>
+            <p>Agent IA de jeu &mdash; Demi-finaliste Kyfax</p>
+            <div class="project-tags">
+              <span>IA</span>
+              <span>Algorithmique</span>
+            </div>
+          </div>
+        </article>
+      </div>
+      <div class="projects-link">
+        <a href="projects.html" class="cta">Voir tous les projets</a>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <p class="contact-intro">Envoyez-moi un message et je vous repondrai rapidement.</p>
+      <form id="contact-form" aria-label="Formulaire de contact">
+        <div class="form-group">
+          <label for="name">Nom complet</label>
+          <input type="text" id="name" name="name" required autocomplete="name">
+          <span class="error-msg" id="error-name"></span>
+        </div>
+        <div class="form-group">
+          <label for="email">Adresse email</label>
+          <input type="email" id="email" name="email" required autocomplete="email">
+          <span class="error-msg" id="error-email"></span>
+        </div>
+        <div class="form-group">
+          <label for="message">Votre message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+          <span class="error-msg" id="error-message"></span>
+        </div>
+        <button type="submit" class="cta">Envoyer</button>
+        <div id="form-feedback"></div>
+      </form>
+      <div class="contact-alt">
+        <a class="contact-alt-link" href="contact.html">Ouvrir la page Contact</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Prosper AFFOUKOU</p>
+    <div class="footer-links">
+      <a href="https://github.com/Charmel7" target="_blank" rel="noreferrer">
+        <img src="assets/images/icons8-github-50.png" alt="GitHub"> GitHub
+      </a>
+      <a href="mailto:prosperaffoukou@outlook.com">
+        <img src="assets/images/icons8-letter-50.png" alt="Email"> Email
+      </a>
+    </div>
+    <p class="footer-credit">Fait avec passion en HTML/CSS/JS</p>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

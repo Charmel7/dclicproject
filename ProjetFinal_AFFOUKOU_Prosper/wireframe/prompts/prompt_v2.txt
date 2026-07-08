@@ -1,0 +1,78 @@
+PROMPT V2 — Wireframe Portfolio Personnel (Amélioré)
+=====================================================
+
+Auteur : AFFOUKOU D.O. Prosper Charmel
+Améliorations : accessibilité, écoconception, précision des composants
+
+---
+
+Tu es designer UX spécialisé en accessibilité et écoconception. Génère un wireframe low-fidelity d'un portfolio personnel.
+
+Écrans : Accueil (desktop + mobile) + Projets (desktop + mobile).
+
+Utilisateur cible : recruteur / responsable pédagogique / pairs ingénieurs.
+Profil : Élève-ingénieur en Génie Mathématique et Modélisation, primé au hackathon UNESCO.
+
+Sections avec détails des composants :
+
+1. HEADER/NAV
+   - Logo texte "Prosper AFFOUKOU" (gauche)
+   - Navigation : Accueil, À propos, Compétences, Projets, Contact (liens ancres #id)
+   - Hamburger menu en mobile (icône ☰)
+   - Skip to content link caché (accessibilité clavier)
+
+2. HERO
+   - H1 : "AFFOUKOU Prosper Charmel"
+   - Sous-titre : "Élève-Ingénieur en Génie Mathématique & Modélisation"
+   - Accroche : "Mathématiques appliquées · IA · Optimisation"
+   - CTA bouton : "Voir mes projets" → ancre #projets
+   - CTA secondaire : "Me contacter" → ancre #contact
+
+3. À PROPOS
+   - H2 : "À propos"
+   - Photo de profil (cercle, alt="Portrait Prosper AFFOUKOU")
+   - Paragraphe biographique : formation (UNSTIM-ENSGMM, INSPEI), passions (mathématiques, IA, innovation)
+   - Badge : "1er Prix mondial — Hackathon Water4Future UNESCO 2026"
+
+4. COMPÉTENCES
+   - H2 : "Compétences"
+   - Grille 3 colonnes desktop, 2 colonnes tablette, 1 colonne mobile
+   - Cartes avec icône + titre + description :
+     a) Développement Web : HTML5, CSS3 (Flex/Grid, responsive), JavaScript (validation, interactions DOM)
+     b) Mathématiques & Modélisation : Optimisation, Calcul scientifique, Algèbre linéaire numérique
+     c) Programmation : Python (NumPy, pandas), MATLAB, C (BLAS/LAPACK)
+     d) IA & Data : Machine Learning, Séries temporelles, Optimisation combinatoire
+     e) Systèmes embarqués : Arduino, ESP32, IoT
+     f) Outils : Git/GitHub, LaTeX, Linux
+
+5. PROJETS
+   - H2 : "Projets"
+   - Grille 2 colonnes desktop, 1 colonne mobile
+   - Cartes projet : image + H3 + description + tags technologies + lien "En savoir plus"
+   - Projets :
+     a) Eauracle — Prédiction inondations (1er Prix UNESCO 2026)
+     b) Timetabling ACO — Optimisation combinatoire (Python)
+     c) Débruitage d'image — BLAS/LAPACK (C)
+     d) Sixteen Soldiers Challenge — Agent IA de jeu (Demi-finaliste)
+
+6. CONTACT
+   - H2 : "Contact"
+   - Formulaire :
+     - Champ Nom (input text, required, label "Nom complet")
+     - Champ Email (input email, required, label "Adresse email")
+     - Champ Message (textarea, required, label "Votre message")
+     - Bouton "Envoyer" (type submit)
+   - Messages d'erreur visibles sous chaque champ
+   - Message de succès après validation
+
+7. FOOTER
+   - Copyright : "© 2026 Prosper AFFOUKOU"
+   - Liens : GitHub (github.com/Charmel7), Email (prosperaffoukou@outlook.com)
+   - Mention : "Fait avec ❤️ en HTML/CSS/JS"
+
+Contraintes techniques :
+- Hiérarchie : un H1 unique, H2 pour sections, H3 pour projets/compétences
+- Accessibilité : roles ARIA (navigation, form), focus visible, labels explicites
+- Écoconception : pas d'images lourdes, polices système, CSS minimal
+- Responsive : 3 breakpoints (max-width: 768px, 1024px, 1440px)
+- Palette sobre : couleurs foncées (primaires), accent bleu/vert, fond clair
